@@ -22,7 +22,7 @@ class container_child_reusable extends StatelessWidget {
         ),
         Text(
           text,
-          style: labelTextStyle,
+          style: KlabelTextStyle,
         )
       ],
     );
@@ -46,6 +46,30 @@ class custom_container extends StatelessWidget {
           color: clr,
           borderRadius: BorderRadius.circular(10),
         ),
+      ),
+    );
+  }
+}
+
+class Buttom_container extends StatelessWidget {
+  Buttom_container({@required this.text, @required this.onPress});
+  final String text;
+  final Function onPress;
+  @override
+  Widget build(BuildContext context) {
+    return GestureDetector(
+      onTap: onPress,
+      child: Container(
+        child: Center(
+          child: Text(
+            text,
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 29.0),
+          ),
+        ),
+        margin: EdgeInsets.only(top: 10.0),
+        color: Kbottom_button,
+        width: double.infinity,
+        height: Kbutton_height,
       ),
     );
   }
