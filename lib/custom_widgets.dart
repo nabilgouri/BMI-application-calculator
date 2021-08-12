@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'constant.dart';
 
 class container_child_reusable extends StatelessWidget {
   container_child_reusable({@required this.text, @required this.icon});
@@ -21,10 +22,7 @@ class container_child_reusable extends StatelessWidget {
         ),
         Text(
           text,
-          style: TextStyle(
-            color: Color(0xFF8D8E98),
-            fontSize: 18,
-          ),
+          style: labelTextStyle,
         )
       ],
     );
@@ -32,18 +30,22 @@ class container_child_reusable extends StatelessWidget {
 }
 
 class custom_container extends StatelessWidget {
-  custom_container({@required this.clr, this.child_cont});
+  custom_container({@required this.clr, this.child_cont, this.onpress});
   final Color clr;
+  final Function onpress;
 
   final Widget child_cont;
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: child_cont,
-      margin: EdgeInsets.all(10.0),
-      decoration: BoxDecoration(
-        color: clr,
-        borderRadius: BorderRadius.circular(10),
+    return GestureDetector(
+      onTap: onpress,
+      child: Container(
+        child: child_cont,
+        margin: EdgeInsets.all(10.0),
+        decoration: BoxDecoration(
+          color: clr,
+          borderRadius: BorderRadius.circular(10),
+        ),
       ),
     );
   }
