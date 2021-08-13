@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'custom_widgets.dart';
-import 'constant.dart';
+import '../custom widgets/custom_widgets.dart';
+import '../constants/constant.dart';
 import 'result_screen.dart';
 import 'package:bmi_calculator/BMI_brain_calculation.dart';
 

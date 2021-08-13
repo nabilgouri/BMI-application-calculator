@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'constant.dart';
+import '../constants/constant.dart';
 
 class container_child_reusable extends StatelessWidget {
   container_child_reusable({@required this.text, @required this.icon});

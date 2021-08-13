@@ -1,8 +1,8 @@
 import 'package:bmi_calculator/main.dart';
 import 'package:flutter/material.dart';
-import 'constant.dart';
+import '../constants/constant.dart';
 import 'inputPage.dart';
-import 'custom_widgets.dart';
+import '../custom widgets/custom_widgets.dart';
 import 'package:bmi_calculator/BMI_brain_calculation.dart';
 
 class result_screen extends StatelessWidget {
