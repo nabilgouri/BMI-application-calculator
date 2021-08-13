@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="388f302b-eaa7-4a47-b8ba-1df31f34acb3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/pc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/BMI_brain_calculation.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/result_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Splash.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/constant.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/constant.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/custom_widgets.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/custom_widgets.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/inputPage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/inputPage.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +65,8 @@
       <updated>1628727279585</updated>
       <workItem from="1628727284819" duration="4000" />
       <workItem from="1628727291099" duration="3243000" />
-      <workItem from="1628764685192" duration="36100000" />
+      <workItem from="1628764685192" duration="36787000" />
+      <workItem from="1628813314764" duration="3160000" />
     </task>
     <task id="LOCAL-00001" summary="did some code refactor">
       <created>1628784168193</created>
@@ -92,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628787447782</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added the BMI calculation functionality and also the interpretation behind the BMI result">
+      <created>1628811818141</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1628811818142</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,49 +105,50 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="did some code refactor" />
     <MESSAGE value="added the slider" />
-    <option name="LAST_COMMIT_MESSAGE" value="added the slider" />
+    <MESSAGE value="added the BMI calculation functionality and also the interpretation behind the BMI result" />
+    <option name="LAST_COMMIT_MESSAGE" value="added the BMI calculation functionality and also the interpretation behind the BMI result" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="252" y="0" key="CommitChangelistDialog2" timestamp="1628787446898">
+    <state x="252" y="0" key="CommitChangelistDialog2" timestamp="1628811817042">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="252" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1628787446898" />
-    <state width="618" height="176" key="GridCell.Tab.0.bottom" timestamp="1628811092017">
+    <state x="252" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1628811817042" />
+    <state width="1237" height="176" key="GridCell.Tab.0.bottom" timestamp="1628815924049">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="618" height="176" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1628811092017" />
-    <state width="618" height="176" key="GridCell.Tab.0.center" timestamp="1628811092016">
+    <state width="1237" height="176" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1628815924049" />
+    <state width="1237" height="176" key="GridCell.Tab.0.center" timestamp="1628815924049">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="618" height="176" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1628811092016" />
-    <state width="618" height="176" key="GridCell.Tab.0.left" timestamp="1628811092014">
+    <state width="1237" height="176" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1628815924049" />
+    <state width="1237" height="176" key="GridCell.Tab.0.left" timestamp="1628815924048">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="618" height="176" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1628811092014" />
-    <state width="618" height="176" key="GridCell.Tab.0.right" timestamp="1628811092016">
+    <state width="1237" height="176" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1628815924048" />
+    <state width="1237" height="176" key="GridCell.Tab.0.right" timestamp="1628815924049">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="618" height="176" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1628811092016" />
+    <state width="1237" height="176" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1628815924049" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1628775538535">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1280.720@0.0.1280.720" timestamp="1628775538535" />
-    <state x="233" y="83" key="Vcs.Push.Dialog.v2" timestamp="1628787450744">
+    <state x="233" y="83" key="Vcs.Push.Dialog.v2" timestamp="1628811821969">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="233" y="83" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1628787450744" />
-    <state x="93" y="93" width="1095" height="535" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1628764770520">
+    <state x="233" y="83" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1628811821969" />
+    <state x="93" y="93" width="1095" height="535" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1628813352356">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="93" y="93" width="1095" height="535" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1280.720@0.0.1280.720" timestamp="1628764770520" />
-    <state x="337" y="185" key="com.intellij.ide.util.TipDialog" timestamp="1628764727378">
+    <state x="93" y="93" width="1095" height="535" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1280.720@0.0.1280.720" timestamp="1628813352356" />
+    <state x="337" y="185" key="com.intellij.ide.util.TipDialog" timestamp="1628813315837">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="337" y="185" key="com.intellij.ide.util.TipDialog/0.0.1280.720@0.0.1280.720" timestamp="1628764727378" />
-    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1628802653011">
+    <state x="337" y="185" key="com.intellij.ide.util.TipDialog/0.0.1280.720@0.0.1280.720" timestamp="1628813315837" />
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1628813332020">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1628802653011" />
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1628813332020" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
